@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.padding-x {
+  padding-left: max(4vw, 50vw - 37rem);
+  padding-right: max(4vw, 50vw - 37rem);
+}
+
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
